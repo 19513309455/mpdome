@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mpdome
+  datasource:
+    password: 270517
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/mp?useUnicode=true&characterEncoding=UTF8&serverTimezone=Asia/Shanghai&useSSL=false
+logging:
+  level:
+    root: debug
